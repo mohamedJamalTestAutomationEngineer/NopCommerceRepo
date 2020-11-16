@@ -1,0 +1,11 @@
+[
+{
+   "firstName"        : "first12",
+   "lastName"         : "last22",
+   "email"            : "yut1@gmail.com",
+   "password"         : "12345678",
+   "productName"      : "mac",
+   "reviewTitle"      : "test review duplicate",
+   "reviewMessageBox" : "this is a goo1d product with high price"
+}
+]
