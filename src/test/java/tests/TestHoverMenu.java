@@ -10,7 +10,7 @@ public class TestHoverMenu extends TestBase{
 	HomePage homeObject;
 	
 	@Test
-	public void testHoverMenu()
+	public void testHoverMenu() 
 	{
 		homeObject = new HomePage(driver);
 		homeObject.selectNoteBooksFromMainMenu();

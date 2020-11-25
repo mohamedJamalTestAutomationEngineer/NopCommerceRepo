@@ -60,7 +60,6 @@ public class ProductDetailsPage extends PageBase{
 	
 	public void opencompareListPage()
 	{
-		//waitForElementToBeClickable(addToCompareListBtn);
 		clickOnButton(addToCompareListBtn);
 		clickOnButton(productComparisonLink);
 		
@@ -69,7 +68,6 @@ public class ProductDetailsPage extends PageBase{
 	public void addProductToShoppingCart()
 	{
 		clickOnButton(addMacToProductCartBtn);
-		//waitForElementToBeClickable(clickToGoToShoppingCart);
 		clickOnButton(clickToGoToShoppingCart);
 		
 	}

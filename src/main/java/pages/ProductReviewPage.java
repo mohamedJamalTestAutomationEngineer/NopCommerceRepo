@@ -28,9 +28,14 @@ public class ProductReviewPage extends PageBase{
 	
 	public void addProductReview(String reviewHeader , String reviewMessage)
 	{
+		
 		setElementTxtBox(reviewTitle, reviewHeader);
 		setElementTxtBox(reviewTxt, reviewMessage);
+		
+		waitForElementToBeClickable(productRate3);
+		//waitForElementToBeClickable2(productRate3);
 		clickOnButton(productRate3);
+		//waitForElementToBeClickable(reviewSub);
 		clickOnButton(reviewSub);
 	}
 }

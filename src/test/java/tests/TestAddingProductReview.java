@@ -22,11 +22,11 @@ public class TestAddingProductReview extends TestBase{
 	
 	String firstName = "111";
 	String lastName = "222";
-	String email = "i231qmqqqnl1zaqa1y11u@gmail.com";
+	String email = "i233k36i@gmail.com";
 	String password = "12345678";
 	String productName = "mac";
-	String reviewTitle = "test review2";
-	String reviewMessageBox = "this is a goo1d product qw2";
+	String reviewTitle = "test review2013";
+	String reviewMessageBox = "this is a gooqw1d product q11w2";
 	
 	
 	
@@ -64,16 +64,16 @@ public class TestAddingProductReview extends TestBase{
 		productDetailsObject = new ProductDetailsPage(driver);
 		ProductReviewPage reviewPageObject = new ProductReviewPage(driver);
 		productDetailsObject.openReviewScreen();
-		driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
 		reviewPageObject.addProductReview(reviewTitle, reviewMessageBox);
 		Assert.assertTrue(reviewPageObject.reviewSuccessMessage.getText().contains("Product review is successfully added"));
 	}
 	
-	@Test(priority = 4)
+	@Test(priority = 4 )
 	public void userCanLogOut()
 	{
 		loginObject = new LoginPage(driver);
-		driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
 		loginObject.registeredUserLogOut();
 	}
 	
