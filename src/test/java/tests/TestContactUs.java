@@ -13,7 +13,7 @@ public class TestContactUs extends TestBase{
 	ContactUsPage contactObject;
 	
 	String name = "test nenamqe2!";
-	String email = "t1aaa8n1oq1p@teqst.com";
+	String email = "t1aaa8n1p@teqst.com";
 	String enquiry = "again , this asass for est fg!";
 	
 	@Test
