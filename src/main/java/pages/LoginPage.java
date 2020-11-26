@@ -32,7 +32,7 @@ public class LoginPage extends PageBase{
 	
 	public void registeredUserLogOut()
 	{
-		//waitUntilLoad(logOutBtn);
+		waitForElementToBeClickable(logOutBtn);
 		clickOnButton(logOutBtn);
 	}
 
